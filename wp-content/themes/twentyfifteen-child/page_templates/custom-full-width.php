@@ -1,19 +1,17 @@
 <?php
 /**
- * The template for displaying pages
+ * Template Name: Custom Full Width
+ * Description: Page template without sidebar
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages and that
- * other "pages" on your WordPress site will use a different template.
+ * This template is from article  http://www.smashingmagazine.com/2015/06/19/wordpress-custom-page-templates/
  *
- * @package WordPress
- * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
+ * When create new page select Page Attribute and pick template 
+ * Once we ref to it, this will be used rather than page.php 
  */
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="site-content-fullwidth">
 		<main id="main" class="site-main" role="main">
 
 		<?php
