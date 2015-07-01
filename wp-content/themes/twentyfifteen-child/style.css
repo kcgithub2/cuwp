@@ -11,6 +11,31 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentyfifteen-child
 */
+@media screen and (min-width: 59.6875em) {
+	.site-content {
+		float: left;
+		margin-left: 0px;
+		width: 70.5882%;
+	}
+	
+	.sidebar {
+		float: right;
+		right:0;
+		margin-right: 0px;
+		max-width: 413px;
+		width: 29.4118%;
+	}
+	
+	body:before {
+		right: 0;
+		left:auto;
+	}
+	
+	.site-footer {
+		margin: 0 0 0 6.1%;
+	}
+
+}
 .entry-title {
     font-size: 50px;
     font-weight: 400;
@@ -26,3 +51,4 @@
 	width: 100%;
 	
 }
+
