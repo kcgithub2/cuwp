@@ -21,3 +21,8 @@
 .entry-title a {
     color: coral;
 }
+.site-content-fullwidth {
+	float: left;
+	width: 100%;
+	
+}
