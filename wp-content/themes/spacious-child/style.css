@@ -16,3 +16,22 @@ Text Domain: spacious-child
 	background: #2A4E98;
 	border-bottom: 1px solid #FF0000;
 }
+.main-navigation ul li a {
+	font-size: 16px;
+}
+.main-navigation a {
+	color: #aaffaa;
+	display: block;
+	float: left;
+	padding: 16px 0 0;
+	height: 30px;
+}
+.main-navigation a:hover,
+.main-navigation a:hover,
+.main-navigation ul li.current-menu-item a,
+.main-navigation ul li.current_page_ancestor a,
+.main-navigation ul li.current-menu-ancestor a,
+.main-navigation ul li.current_page_item a,
+.main-navigation ul li:hover > a {
+	color: #ffffff;
+}
