@@ -12,4 +12,7 @@ Tags: light, white, dark, two-columns, right-sidebar, left-sidebar, fluid-layout
 Text Domain: spacious-child
 
 */
-
+#header-text-nav-container {
+	background-color: linear-gradient(red,blue);
+	border-bottom: 1px solid #FFEAEA;
+}
