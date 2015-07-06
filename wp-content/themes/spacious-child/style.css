@@ -10,7 +10,7 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, white, dark, two-columns, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options
 Text Domain: spacious-child
-
+for main.navigation part below:  need to add  !important, or else the child theme's style.css is override by some routine. from the Author
 */
 #header-text-nav-container {
 	background: #2A4E98;
@@ -32,5 +32,5 @@ Text Domain: spacious-child
 .main-navigation ul li.current-menu-ancestor a,
 .main-navigation ul li.current_page_item a,
 .main-navigation ul li:hover > a {
-	color: #ffffff;
+	color: #ffffff !important;
 }
