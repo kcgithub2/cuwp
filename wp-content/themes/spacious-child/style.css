@@ -16,10 +16,6 @@ for main.navigation part below:  need to add  !important, or else the child them
 	background: #2A4E98;
 	border-bottom: 1px solid #FF0000;
 }
-.main-navigation {
-  vertical-align: -25px !important;	
-}	
-}
 .main-navigation ul li a {
 	font-size: 16px;
 }
