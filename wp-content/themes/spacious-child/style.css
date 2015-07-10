@@ -34,3 +34,38 @@ for main.navigation part below:  need to add  !important, or else the child them
 .main-navigation ul li:hover > a {
 	color: #ffffff !important;
 }
+.kcwrapper {
+    background: linear-gradient(#2A4E98, #3A5ea8, #4A6EF8);
+    width: inherit;
+    color: white;
+    display: block;
+    padding: 5px 5px 5px 5px;
+    float: left;
+}
+.kc_01 {
+    width: 460px;
+    display: block;
+    padding: 5px 15px 15px 5px;
+    float: left;
+}
+.kc_02 {
+    width: 270px;
+    display: block;
+    padding: 5px 15px 15px 5px;
+    float: left;
+}
+.kc_03 {
+    width: 270px;
+    display: block;
+    padding: 5px 15px 15px 5px;
+    float: left;
+}
+.kc_04 {
+    width: 270px;
+    display: block;
+    padding: 5px 15px 15px 5px;
+    float: left;
+}
+.img-rounded{
+	border-radius:6px;
+}
