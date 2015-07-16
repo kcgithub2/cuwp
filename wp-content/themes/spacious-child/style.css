@@ -69,3 +69,10 @@ for main.navigation part below:  need to add  !important, or else the child them
 .img-rounded{
 	border-radius:6px;
 }
+.kc_column {
+  width:230px;
+  height:215px;
+  margin: 0 0 10px 0;
+  background: url("http://www.sahaunion.com/wp-content/themes/aselia/images/intro_block-bg.png");
+  background-size: 230px 215px;	
+{
