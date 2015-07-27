@@ -32,7 +32,7 @@ for main.navigation part below:  need to add  !important, or else the child them
 .main-navigation ul li.current-menu-ancestor a,
 .main-navigation ul li.current_page_item a,
 .main-navigation ul li:hover > a {
-	color: #ffffff !important;
+	color: #dd6600 !important;
 }
 .kcwrapper {
     background: linear-gradient(#2A4E98, #3A5ea8, #4A6EF8);
