@@ -13,9 +13,7 @@ Text Domain: spacious-child
 for main.navigation part below:  need to add  !important, or else the child theme's style.css is override by some routine. from the Author
 */
 #header-text-nav-container {
-	/*background: linear-gradient(#2A4E98, #3A5ea8, #4A6EF8); */
-	background: -ms-linear-gradient(left, rgba(0,0,0,0) 0, #171717 100%);
-	background-image: -ms-linear-gradient(bottom, rgba(0,0,0,0) 0, rgba(23,23,23) 100%);
+	background: linear-gradient(#2A4E98, #3A5ea8, #4A6EF8);
 	border-bottom: 1px solid #FF0000;
 }
 .main-navigation ul li a {
