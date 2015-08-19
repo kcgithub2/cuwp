@@ -14,6 +14,7 @@ for main.navigation part below:  need to add  !important, or else the child them
 */
 #header-text-nav-container {
 	background: linear-gradient(#2A4E98, #3A5ea8, #4A6EF8);
+	background-image: -ms-linear-gradient(top,#2A4E98, #3A5ea8, #4A6EF8);
 	border-bottom: 1px solid #FF0000;
 }
 .main-navigation ul li a {
