@@ -76,4 +76,13 @@ for main.navigation part below:  need to add  !important, or else the child them
   margin: 0 0 10px 0;
   background: url("http://www.sahaunion.com/wp-content/themes/aselia/images/intro_block-bg.png");
   background-size: 230px 215px;	
-{
+}
+.play-icon:before {
+	content: '\f224';
+	font: normal 15px/1 'Genericons';
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #9955dd;
+	transform: rotate(90deg);
+}
