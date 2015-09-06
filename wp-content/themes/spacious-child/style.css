@@ -83,6 +83,6 @@ for main.navigation part below:  need to add  !important, or else the child them
 	display: inline-block;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: #9955dd;
-	transform: rotate(90deg);
+	color: #4DAEDA;
+	transform: rotate(-90deg);
 }
