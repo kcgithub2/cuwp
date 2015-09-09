@@ -8,13 +8,7 @@ wp_enqueue_style( 'parent-styles', get_template_directory_uri().'/style.css' );
 add_action( 'wp_footer', 'wp_footer_example' );
  
 function wp_footer_example() {
-    $stat = sprintf( '%d queries in %.3f seconds, using %.2fMB memory',
-        get_num_queries(),
-        timer_stop( 0, 3 ),
-        memory_get_peak_usage() / 1024 / 1024
-    );
-    echo '<h3>This should show in footer</h3>' . "\n";
-    
+    echo '<h4 style="color:red">This show at very end of footer</h4>' . "\n";
 }
  
 // Example Source: http://wordpress.stackexchange.com/a/1866
