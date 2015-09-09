@@ -17,10 +17,6 @@ for main.navigation part below:  need to add  !important, or else the child them
 	background-image: -ms-linear-gradient(top,#2A4E98, #3A5ea8, #4A6EF8);
 	border-bottom: 1px solid #FF0000;
 }
-#header-logo-image {
-	width: 100px;
-	height: 100px;
-}
 .main-navigation ul li a {
 	font-size: 16px;
 }
