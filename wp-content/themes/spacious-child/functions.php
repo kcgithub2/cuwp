@@ -13,9 +13,8 @@ function wp_footer_example() {
         timer_stop( 0, 3 ),
         memory_get_peak_usage() / 1024 / 1024
     );
-    if( current_user_can( 'manage_options' ) ) {
-        echo "<!-- {$stat} -->";
-    }
+    echo '<h3>This should show in footer</h3>' . "\n";
+    
 }
  
 // Example Source: http://wordpress.stackexchange.com/a/1866
